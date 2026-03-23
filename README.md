@@ -28,6 +28,20 @@ This system enables stable and automated pH regulation in algae cultivation by i
 
 ---
 
+## Demo / Output
+
+### 🔧 Controller Terminal Output
+![Terminal Output](docs/output/terminal_output.png)
+
+### 📊 SCADA Dashboard
+![Dashboard](docs/output/dashboard.png)
+
+### 📈 Real-Time Trends
+![Trends](docs/output/trends.png)
+
+### 🔐 Login Interface
+![Login](docs/output/login.png)
+
 ## Project Structure
 
 ```
@@ -78,6 +92,7 @@ python -m controller.main
 * PID Control
 
 ---
+
 
 ## 👨‍💻 Authors
 
