@@ -23,37 +23,51 @@ The system retrofits legacy Crison transmitters and integrates Mass Flow Control
 ---
 
 ## Project Structure
-controller/
-├── main.py # Entry point
-├── controller.py # Control loop logic
-├── pid.py # PID controller
-├── mfc.py # MFC communication
-├── mm44.py # Sensor parsing
-├── dashboard_io.py # Dashboard interface
-├── logging_utils.py # Logging system
-├── config.py # Configuration
-└── utils.py # Helper functions
-
+PHREG-pH-Control-System/
+│
+├── controller/
+│ ├── main.py # Entry point
+│ ├── controller.py # Control loop logic
+│ ├── pid.py # PID controller implementation
+│ ├── mfc.py # Mass Flow Controller communication
+│ ├── mm44.py # Sensor data parsing (Crison MM44)
+│ ├── dashboard_io.py # Dashboard interface
+│ ├── logging_utils.py # Data logging utilities
+│ ├── config.py # System configuration
+│ └── utils.py # Helper functions
+│
+├── docs/
+│ └── architecture.png # System architecture diagram
+│
+├── requirements.txt # Python dependencies
+├── README.md # Project documentation
+└── .gitignore
 
 ---
 
 ## How to Run
 
-bash
+```markdown
+## How to Run
+
+```bash
 pip install -r requirements.txt
 python -m controller.main
 
 ## Results
-Stable pH regulation achieved
-Real-time monitoring and logging implemented
-Modular embedded software architecture
+```markdown
+## Results
+
+- Stable pH regulation achieved
+- Real-time monitoring and logging implemented
+- Modular embedded software architecture
 
 ## Technologies Used
-Python
-Modbus RTU (RS232)
-Raspberry Pi
-PID Control
+- Python
+- Modbus RTU (RS232)
+- Raspberry Pi
+- PID Control
 
 ## Authors
-Shyamal Hirapara – Embedded Control System, Communication, Integration
-Maulik – Dashboard, Data Logging, Visualization
+- **Shyamal Hirapara** – Embedded control system, communication, and integration  
+- **Maulik** – Dashboard, data logging, and visualization
