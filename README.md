@@ -76,4 +76,4 @@ python -m controller.main
 ## Authors
 
 * **Shyamal Hirapara** – Embedded control system, communication, and integration
-* **Maulik** – Dashboard, data logging, and visualization
+* **Maulik Italiya** – Dashboard, data logging, and visualization
