@@ -31,16 +31,16 @@ This system enables stable and automated pH regulation in algae cultivation by i
 ## Demo / Output
 
 ### 🔧 Controller Terminal Output
-![Terminal Output](docs/output/terminal_output.png)
+![Terminal Output](docs/output/terminal_output.jpeg)
 
 ### 📊 SCADA Dashboard
-![Dashboard](docs/output/dashboard.png)
+![Dashboard](docs/output/dashboard.jpeg)
 
 ### 📈 Real-Time Trends
-![Trends](docs/output/trends.png)
+![Trends](docs/output/trends.jpeg)
 
 ### 🔐 Login Interface
-![Login](docs/output/login.png)
+![Login](docs/output/login.jpeg)
 
 ## Project Structure
 
