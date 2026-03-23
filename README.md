@@ -1,9 +1,15 @@
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Platform](https://img.shields.io/badge/Platform-Raspberry%20Pi-orange)
+![Control](https://img.shields.io/badge/Control-PID-green)
+![Communication](https://img.shields.io/badge/Protocol-Modbus%20RTU-lightgrey)
+
 # PHREG – Automated pH Regulation System
 
 ## Overview
 This project implements an embedded control system for automated pH regulation in CO₂-aerated microalgae cultures.
-
 The system retrofits legacy Crison transmitters and integrates Mass Flow Controllers (MFC) to maintain stable pH using feedback control.
+This system enables stable and automated pH regulation in algae cultivation by integrating real-time sensing, embedded control, and CO₂ flow actuation.
+**Role:** Designed and implemented embedded control logic, Modbus communication, and system integration for real-time pH regulation.
 
 ---
 
@@ -47,7 +53,7 @@ PHREG-pH-Control-System/
 ```
 
 
-## How to Run
+## ▶️ How to Run
 
 ```bash
 pip install -r requirements.txt
@@ -56,7 +62,7 @@ python -m controller.main
 
 ---
 
-## Results
+## 📊 Results
 
 * Stable pH regulation achieved
 * Real-time monitoring and logging implemented
@@ -64,7 +70,7 @@ python -m controller.main
 
 ---
 
-## Technologies Used
+## ⚙️ Technologies Used
 
 * Python
 * Modbus RTU (RS232)
@@ -73,7 +79,7 @@ python -m controller.main
 
 ---
 
-## Authors
+## 👨‍💻 Authors
 
 * **Shyamal Hirapara** – Embedded control system, communication, and integration
 * **Maulik Italiya** – Dashboard, data logging, and visualization
