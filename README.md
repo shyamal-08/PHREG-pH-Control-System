@@ -23,25 +23,29 @@ The system retrofits legacy Crison transmitters and integrates Mass Flow Control
 ---
 
 ## Project Structure
+
+```
 PHREG-pH-Control-System/
 │
 ├── controller/
-│ ├── main.py # Entry point
-│ ├── controller.py # Control loop logic
-│ ├── pid.py # PID controller implementation
-│ ├── mfc.py # Mass Flow Controller communication
-│ ├── mm44.py # Sensor data parsing (Crison MM44)
-│ ├── dashboard_io.py # Dashboard interface
-│ ├── logging_utils.py # Data logging utilities
-│ ├── config.py # System configuration
-│ └── utils.py # Helper functions
+│   ├── main.py              # Entry point
+│   ├── controller.py        # Control loop logic
+│   ├── pid.py               # PID controller implementation
+│   ├── mfc.py               # Mass Flow Controller communication
+│   ├── mm44.py              # Sensor data parsing (Crison MM44)
+│   ├── dashboard_io.py      # Dashboard interface
+│   ├── logging_utils.py     # Data logging utilities
+│   ├── config.py            # System configuration
+│   └── utils.py             # Helper functions
 │
 ├── docs/
-│ └── architecture.png # System architecture diagram
+│   └── architecture.png     # System architecture diagram
 │
-├── requirements.txt # Python dependencies
-├── README.md # Project documentation
+├── requirements.txt         # Python dependencies
+├── README.md                # Project documentation
 └── .gitignore
+```
+
 
 ---
 
