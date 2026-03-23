@@ -47,31 +47,33 @@ PHREG-pH-Control-System/
 ```
 
 
----
-
-## How to Run
-
-```markdown
 ## How to Run
 
 ```bash
 pip install -r requirements.txt
 python -m controller.main
+```
+
+---
 
 ## Results
-```markdown
-## Results
 
-- Stable pH regulation achieved
-- Real-time monitoring and logging implemented
-- Modular embedded software architecture
+* Stable pH regulation achieved
+* Real-time monitoring and logging implemented
+* Modular embedded software architecture
+
+---
 
 ## Technologies Used
-- Python
-- Modbus RTU (RS232)
-- Raspberry Pi
-- PID Control
+
+* Python
+* Modbus RTU (RS232)
+* Raspberry Pi
+* PID Control
+
+---
 
 ## Authors
-- **Shyamal Hirapara** – Embedded control system, communication, and integration  
-- **Maulik** – Dashboard, data logging, and visualization
+
+* **Shyamal Hirapara** – Embedded control system, communication, and integration
+* **Maulik** – Dashboard, data logging, and visualization
