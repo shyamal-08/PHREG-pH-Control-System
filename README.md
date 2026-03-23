@@ -27,9 +27,7 @@ This system enables stable and automated pH regulation in algae cultivation by i
 ![System Architecture](docs/architecture.png)
 
 ---
-
-## Demo / Output
-
+## Output
 ### 🔧 Controller Terminal Output
 ![Terminal Output](docs/output/terminal_output.jpeg)
 
