@@ -84,13 +84,19 @@ python -m controller.main
 
 ## ⚙️ Technologies Used
 
-* Python
-* Modbus RTU (RS232)
-* Raspberry Pi
-* PID Control
+* MATLAB / Simulink
+* Python (automation, data logging)
+* Embedded systems (Raspberry Pi)
+* Serial communication (RS232/RS485, Modbus)
 
 ---
 
+## Applications
+* Process automation
+* Industrial control systems
+* Sensor-based feedback systems
+
+---
 
 ## 👨‍💻 Authors
 
